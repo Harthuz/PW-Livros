@@ -1,0 +1,92 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: maroon;
+}
+
+.capas img{
+    width: 150px;
+    height: 230px;
+    border: 2px dashed IndianRed;
+    object-fit: cover;
+    padding: 2px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+
+.capas img:hover{
+    border: 5px double gold;
+    transform: rotate(-5deg);
+}
+
+.capas table{
+    margin: auto;
+}
+
+main{
+    background-color: maroon;
+    width: 70%;
+    position: absolute;
+    color: whitesmoke;
+    right: 0;
+}
+
+main h1{
+    font-style: italic;
+    border: 2px dotted MistyRose;
+    text-transform: uppercase;
+    cursor: default;
+    transition: all 0.1s;
+}
+
+main h1:hover{
+    background-color: crimson;
+    color: lightpink;
+    border-color: lightpink;
+}
+
+#last{
+    margin-bottom: 20px;
+}
+
+main h3{
+    background: repeating-linear-gradient( 90deg, #923c3e 0px, #923c3e 40px, #8a3b3d 40px, #8a3b3d 80px);
+    cursor: default;
+    padding: 2px;
+}
+
+aside{
+    background-image: linear-gradient(to right, #37090b , #591210);
+    width: 30%;
+    position: fixed;
+    height: 100%;
+    color: lightgray;
+}
+
+aside h3{
+    background: repeating-linear-gradient( 45deg, #e7e7e7 0, #e7e7e7 10px, #fff 10px, #fff 20px);
+    padding: 2px;
+    color: maroon;
+    cursor: default;
+    transition: all 0.1s;
+}
+aside h3:hover{
+    color: indianred;
+}
+
+aside span{
+    color: #eabd25;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+aside ul{
+    cursor: default;
+    text-align: left;
+    font-weight: bold;
+    list-style-image: url(./images/check.png);
+    line-height: 20px;
+    font-size: 10pt;
+}
